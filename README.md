@@ -75,3 +75,23 @@ Outputs:
 ```
 
 You should now be able to visit the IP address and see the standard NGINX welcome screen. Hooooray!
+
+## Cleaning up
+I'll assume you don't want this super simple droplet to be eating into your wallet, you'll probably want to shut it down! You could use the Web UI or another API wrapper, or use Terraform, it'll be easy.
+
+```bash
+terraform plan -destroy
+- digitalocean_droplet.web
+terraform destroy
+Do you really want to destroy?
+  Terraform will delete all your managed infrastructure.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+
+digitalocean_droplet.web: Refreshing state... (ID: 5364117)
+digitalocean_droplet.web: Destroying...
+digitalocean_droplet.web: Destruction complete
+
+Apply complete! Resources: 0 added, 0 changed, 1 destroyed.
+```
