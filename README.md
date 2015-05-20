@@ -2,7 +2,7 @@
 A simple [Terraform] (http://terraform.io) configuration for spinning up a [DigitalOcean] (https://digitalocean.com) Droplet, and installing NGINX. This is really just a demo to show how easy it is to get started with Terraform.
 
 # Setup
-You'll need to set up a DigitalOcean account, if you don't have one, you can use my [Referral Link] to get a free credit! (I get some too).
+You'll need to set up a DigitalOcean account, if you don't have one, you can use my [Referral Link] (https://www.digitalocean.com/?refcode=38b47f5765f4) to get a free credit! (I get some too).
 
 Once you have a DO account, you'll need to set up a "Personal Access Token" (PAT) for the API. and an SSH key setup as well. See these excellent DigitalOcean tutorials for how to do that:
 
