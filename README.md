@@ -9,6 +9,8 @@ Once you have a DO account, you'll need to set up a "Personal Access Token" (PAT
 - [How To Use the DigitalOcean API v2] (https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2#HowToGenerateaPersonalAccessToken)
 - [How To Use SSH Keys with DigitalOcean Droplets] (https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets)
 
+And of course, you'll want to install Terraform. You can use the downloads page, [here] (http://www.terraform.io/downloads.html) to download the appropriate package for your platform. I'm assuming you're running from _not Windows_ (sorry).
+
 My Terraform configuration assumes that the configuration variables are available via environment variables:
 
 ```bash
