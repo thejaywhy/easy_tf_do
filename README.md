@@ -1,8 +1,10 @@
 # easy_tf_do
-A simple [Terraform] (http://terraform.io) configuration for spinning up a [Digital Ocean] (https://digitalocean.com) Droplet, and installing NGINX. This is really just a demo to show how easy it is to get started with Terraform.
+A simple [Terraform] (http://terraform.io) configuration for spinning up a [DigitalOcean] (https://digitalocean.com) Droplet, and installing NGINX. This is really just a demo to show how easy it is to get started with Terraform.
 
 # Setup
-You'll need to set up a Digital Ocean account, and more specifically, an "Personal Access Token" (PAT) for the API. and an SSH key setup as well. See these excellent Digital Ocean tutorials for how to do that:
+You'll need to set up a DigitalOcean account, if you don't have one, you can use my [Referral Link] to get a free credit! (I get some too).
+
+Once you have a DO account, you'll need to set up a "Personal Access Token" (PAT) for the API. and an SSH key setup as well. See these excellent DigitalOcean tutorials for how to do that:
 
 - [How To Use the DigitalOcean API v2] (https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2#HowToGenerateaPersonalAccessToken)
 - [How To Use SSH Keys with DigitalOcean Droplets] (https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets)
@@ -95,3 +97,9 @@ digitalocean_droplet.web: Destruction complete
 
 Apply complete! Resources: 0 added, 0 changed, 1 destroyed.
 ```
+
+# Considerations
+Thanks to HashiCorp and DigitalOcean for making super easy to use tools!
+
+# Author
+[thejaywhy] (https://github.com/thejaywhy)
